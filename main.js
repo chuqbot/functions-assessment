@@ -7,6 +7,7 @@ alert("The name " +name+ " starts with the letter " +firstLetterOfName);
  firstLetterOfName("Jeremy");
 
 function divisibleByTwo(n) {
+    console.log(divisibleByTwo)
     if (n==0)
         return true;
     if (n==1)
@@ -20,6 +21,7 @@ function divisibleByTwo(n) {
 divisibleByTwo("2");
 
 function largestNum() {
+    console.log(largestNum)
     largest = 9;
 
 for (let i = 1; i < largestNum.length; i++) {
